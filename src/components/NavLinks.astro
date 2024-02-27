@@ -1,0 +1,55 @@
+---
+
+---
+
+<div class="shift">
+  <a href="" class="px-5">Who We Are</a>
+  <a href="" class="px-5">How We Help</a>
+  <a href="" class="px-5">Contact Us</a>
+  <a href="" class="px-5">(123) 456-7890</a>
+</div>
+
+<style>
+
+  /* Desktop animations - https://codepen.io/maheshambure21/pen/QwXaRw */
+
+  a,
+  a:after,
+  a:before {
+  transition: all .5s;
+}
+
+  /* SHIFT */
+.shift  a {
+  position:relative;
+  z-index: 1;
+}
+.shift  a:hover {
+  color: #FFF;
+}
+.shift  a:after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+  margin: auto;
+  width: 100%;
+  height: 70px;
+  content: '.';
+  color: transparent;
+  background: #3771C8;
+  visibility: none;
+  opacity: 0;
+  z-index: -1;
+  @apply rounded-md p-5
+}
+.shift  a:hover:after {
+  opacity: 1;
+  visibility: visible;
+  height: 100%;
+}
+
+</style>
