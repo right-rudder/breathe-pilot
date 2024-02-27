@@ -12,7 +12,7 @@ import Nav from '../components/Nav.astro';
         <h1 class="text-3xl font-bold tracking-tight text-center text-gray-900 sm:text-4xl">24/7 Hotline for Pilots</h1>
         <p class="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-600">If you're a pilot facing a crisis, you're not alone. Breathe Pilot is dedicated to providing support and assistance to pilots in times of need. We are a team of fellow pilots offering immediate help and guidance whenever you require it.  Where there is help, there is hope</p>
         <div class="mt-10 flex items-center justify-center gap-x-6">
-          <a href="#" class="rounded-md bg-custom-100 px-3.5 py-2.5 text-xl font-semibold text-white shadow-sm hover:bg-custom-500 duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-custom-100">Talk to a pilot</a>
+          <a href="#contact" class="rounded-md bg-custom-100 px-3.5 py-2.5 text-xl font-semibold text-white shadow-sm hover:bg-custom-500 duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-custom-100">Talk to a pilot</a>
         </div>
       </div>
     </div>
@@ -65,17 +65,47 @@ import Nav from '../components/Nav.astro';
         <h2 class="text-3xl font-bold tracking-tight text-center text-gray-900 sm:text-4xl">You're not alone</h2>
         <p class="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-600">Remember, you're not alone. No matter what challenges you may be facing, Breathe Pilot is here to support you every step of the way. If you're going through thoughts of suicide, depression, anxiety, or stress - talk to a pilot who can understand what you're going through before it's too late.  Whether you need someone to talk to, practical advice, or help finding additional resources, we're here to help. Reach out to us today and take the first step towards getting the support and assistance you deserve.</p>
         <div class="mt-10 flex items-center justify-center gap-x-6">
-          <a href="#" class="rounded-md bg-custom-100 px-3.5 py-2.5 text-xl font-semibold text-white shadow-sm hover:bg-custom-500 duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-custom-100">Talk to a pilot</a>
+          <a href="#contact" class="rounded-md bg-custom-100 px-3.5 py-2.5 text-xl font-semibold text-white shadow-sm hover:bg-custom-500 duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-custom-100">Talk to a pilot</a>
         </div>
       </div>
     </div>
   </div>
 
   <!-- Contact Form -->
-  <div class="bg-gray-200">
-
-
-  </div>
+  <section class="bg-gray-200 pb-48" id="contact">
+    <div class="flex flex-col lg:flex-row items-center">
+      <!-- Text -->
+      <div class="flex flex-col items-center w-full lg:w-1/2">
+        <h2 class="font-bold text-3xl text-center pb-20 px-10">How to Reach Us</h2>
+        <p class="text-gray-600 tracking-tight max-w-lg px-10">
+          If you find yourself in crisis or in need of immediate support, don't hesitate to contact our crisis hotline at (123) 456-7890. We are available around the clock to assist you, offering a listening ear, practical advice, and referrals to additional resources if needed. Whether you're dealing with a personal crisis, a work-related issue, or simply feeling overwhelmed, we're here to help you through it.
+        </p>
+      </div>
+      
+      <!-- Form -->
+      <div class="w-full lg:w-1/2">
+        <iframe
+          src="https://msg.flightschoolcrm.com/widget/form/82vcb2NxxctGp9r6zyii"
+          style="width:100%;height:100%;border:none;border-radius:3px"
+          id="inline-82vcb2NxxctGp9r6zyii" 
+          data-layout="{'id':'INLINE'}"
+          data-trigger-type="alwaysShow"
+          data-trigger-value=""
+          data-activation-type="alwaysActivated"
+          data-activation-value=""
+          data-deactivation-type="neverDeactivate"
+          data-deactivation-value=""
+          data-form-name="Contact Us Form - Breathe Pilot"
+          data-height="678"
+          data-layout-iframe-id="inline-82vcb2NxxctGp9r6zyii"
+          data-form-id="82vcb2NxxctGp9r6zyii"
+          title="Contact Us Form - Breathe Pilot"
+              >
+        </iframe>
+        <script src="https://msg.flightschoolcrm.com/js/form_embed.js"></script>
+      </div>
+    </div>
+  </section>
 
 </Layout>
 
