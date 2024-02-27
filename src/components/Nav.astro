@@ -18,7 +18,7 @@ import NavLinks from '../components/NavLinks.astro';
     </div>
 
     <!-- Hamburger -->
-    <button class="hamburger hamburger--emphatic lg:hidden mt-3" type="button" @click="open = ! open"  x-bind:class="{ 'is-active': open }">
+    <button class="hamburger hamburger--emphatic lg:hidden mt-3" type="button" @click="open = ! open"  x-bind:class="{ 'is-active': open }" aria-label="hamburger button for mobile">
       <span class="hamburger-box">
         <span class="hamburger-inner"></span>
       </span>
